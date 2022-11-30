@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Compatibility Form</title>
+        <script src="functions.js"></script>
+    </head>
+
+    
+
+<body>
+    
+   <div id="back">
+       <br>
+       <div id="head">
+            <br><br><br><br><br><br><br><br>
+            <h1 id="header">
+                Test Your Compatibility!
+            </h1>
+        </div>
+        <br>
+
+        <div id="form-back">
+            <form action="putToast();" id="input">
+                <br>
+                <fieldset id="Personal Info">
+                    
+                    <legend>Personal Info:</legend>
+                        <br>
+                        <label for="">Name:</label>
+                        <input type="text" name="FirstN" id="FirstName" required placeholder="First" minlength="3" maxlength="15"> 
+                        
+                        <label for=""></label>
+                        <input type="text" name="LastN" id="LastName" required placeholder="Last" minlength="3" maxlength="15"> 
+                        <br><br>
+                        
+                        <label for="">Birthday:</label>
+                        <input type="date" required min="2004-12-06" max="2006-12-06">
+                        <br><br>
+                        
+                        <label for="">Phone Number:</label required minlength="10">
+                        <input type="tel">
+                        <br><br>
+                        <label for="Gender">Select Gender:</label>
+                        <select name="Boy" id="Boy" required>
+                            <option value="Default">Select</option>
+                            <option value="Boy">Boy</option>
+                            <option value="Girl">Girl</option>
+                            <option value="Toaster">Toaster</option>
+                        </select>
+                        <br><br>
+
+                        
+                        
+                        <label for="Tall">How tall are you?</label>
+                        
+                            <input type="number"min="4" max="5">
+                            <label for="Ft">'</label>
+                            <input type="number"min="0" max="11">
+                            <label for="">"</label>
+                            <br><br>
+
+                            <label for="">Provide a picture of yourself</label>
+                            <input type="file" required>
+                            <br><br>
+
+
+                </fieldset>
+
+                
+            
+                <fieldset id="Peronality">
+                    <legend>
+                        Answer the Following:
+                    </legend>
+                    <br>
+                    <label for="Dogs/Cats">Do you prefer Dogs or Cats?</label>
+                    <br>
+                        <input type="radio" id="yes" name="choose" value="yes">
+                            <label for="Boy">Dogs</label>
+                            <br>
+                        <input type="radio" id="no" name="choose" value="no">
+                            <label for="Girl">Cats</label>
+                            <br>
+                            <script src="index.js"></script>
+                            <br>
+
+                            <label for="">Select your favorite color:</label>
+                            <input type="color">
+                            <br><br>
+
+                            <label for="">You can press one of the buttons, or you could not.
+                                Don't choose wrong...
+                            </label> <br>
+                            <input type="button">
+                            <input type="button">
+                            <input type="button">
+                            <input type="button">
+                            <input type="button">
+                <br><br>
+                            <label for="">What's your favorite video game?</label>
+                            <br>
+                            <input type="radio" >
+                            <label for="">League of Legends</label>
+                            
+                </fieldset>
+                
+                <fieldset id="Final Things">
+                    <input type="reset">
+                    <input type="submit">
+                </fieldset>
+                
+                
+                
+                
+                <br>
+                
+            </form>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
